@@ -1,0 +1,7 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="DisplayVectorElementTitle.App" xmlns:my="clr-namespace:System;assembly=mscorlib">
+    <Application.Resources>
+    <my:String x:Key="DevExpress.Xpf.License">0E-2C-36-5A-D8-76-F4-AF-FA-C7-1A-8D-33-03-11-8E-83-75-D9-A7</my:String>
+  </Application.Resources>
+</Application>

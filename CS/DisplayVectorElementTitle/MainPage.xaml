@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="DisplayVectorElementTitle.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400" >
+
+    <Grid Background="White">
+        <dxm:MapControl >
+            <dxm:VectorLayer >
+                <dxm:VectorLayer.ShapeTitleOptions>
+                    <dxm:ShapeTitleOptions Visible="True"/>
+                </dxm:VectorLayer.ShapeTitleOptions>
+                <dxm:VectorLayer.ShapeLoader>
+                    <dxm:ShapefileLoader   
+                      FileUri="/DisplayVectorElementTitle;component/Shapefiles/SouthAmerica.shp">
+                    </dxm:ShapefileLoader>
+                </dxm:VectorLayer.ShapeLoader>
+            </dxm:VectorLayer>
+        </dxm:MapControl>
+    </Grid>
+</UserControl>
